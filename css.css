@@ -11,7 +11,10 @@ a{
 	text-decoration: none;
 	color:white;
 }
-
+p{
+	color:salmon;
+	font-weight: bold;
+}
 
 
 
