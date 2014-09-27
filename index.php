@@ -48,7 +48,7 @@ $reservations = fetch_all($query);
 	<?php 
 	if(isset($_SESSION['success']))
 	{
-		echo "<p class='flashEmit'>{$_SESSION['success']}</p>";
+		echo "<div align='center'><p class='flashEmit'>{$_SESSION['success']}</p></div>";
 		unset($_SESSION['success']);
 	}
 	?>

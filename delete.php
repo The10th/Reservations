@@ -17,7 +17,7 @@
 	 		<h3>Name: {$res['contact']}</h3>
 	 		<h3>Phone number: {$res['phone_number']}</h3>
 	 		<h3>Number of guests: {$res['number_of_guests']}</h3>
-	 		<h3>Created at: {$res['created_at']}</h3>
+	 		<h3>Reservation Made At: {$res['created_at']}</h3>
 	 		<a href='process.php?action=confirm_delete&id={$_GET['id']}'><button class='btn btn-success'>YES</button></a>
 	 	 	<a href='index.php'><button class='btn btn-danger'>NO</button></a>
  	 	</div>
