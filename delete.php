@@ -5,24 +5,28 @@
  ?>
  <html>
  <head>
- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
  	<title></title>
  </head>
  <body>
- 	<h1 class='jumbotron' align='center'>Confirm Reservation Delete</h1>
- 	<?php 
- 		echo
- 		"
- 		<div align='center'>
-	 		<h3>Name: {$res['contact']}</h3>
-	 		<h3>Phone number: {$res['phone_number']}</h3>
-	 		<h3>Number of guests: {$res['number_of_guests']}</h3>
-	 		<h3>Reservation Made At: {$res['created_at']}</h3>
-	 		<a href='process.php?action=confirm_delete&id={$_GET['id']}'><button class='btn btn-success'>YES</button></a>
-	 	 	<a href='index.php'><button class='btn btn-danger'>NO</button></a>
- 	 	</div>
- 		";
- 	 ?>
+ 	<div id='container' class='container'>
+	 	<h1 class='jumbotron' align='center'>confirm deletion</h1>
+	 	<?php 
+	 		echo
+	 		"
+	 		<div class='sup' align='center'>
+		 		<h3>Name: <span class='emphasis'>{$res['contact']}</span></h3>
+		 		<h3>Phone number: <span class='emphasis'>{$res['phone_number']}</span></h3>
+		 		<h3>Number of guests: <span class='emphasis'>{$res['number__of_guests']}</span></h3>
+		 		<h3>Reservation Made At: <span class='emphasis'>{$res['created_at']}</span></h3>
+		 		<a href='process.php?action=confirm_delete&id={$_GET['id']}'><button class='btn btn-success'>YES</button></a>
+		 	 	<a href='index.php'><button class='btn btn-danger'>NO</button></a>
+	 	 	</div>
+	 		";
+	 	 ?>
+ 	 </div>
  	 
  </body>
  </html>

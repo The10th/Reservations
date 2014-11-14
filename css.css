@@ -1,20 +1,97 @@
 *{
-	font-family: arial;
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	color:#4C110D;
+}
+
+@font-face{
+	font-family:hands;
+	src:url(hands.ttf)
+}
+
+#container{
+	height:100%;
+	width:100%;
+	background-color: black;
+}
+.jumbotron{
+
+	font-family:hands;
+	color:gray !important;
+	margin-left: 10%;
+	width:80%;
+	text-align: center;
+	background-color:#4C110D !important;
+}
+.main{
 
 }
-a{
-	text-decoration: none;
-	color:white;
+.abt{
+	background-color: salmon;
 }
+
+form{
+	color:darkgray;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+
+  text-decoration: none;
+  background-color: #4C110D !important;
+  width:30%;
+}
+
+.nav > li {
+	color:#F2DBB2;
+}
+
+.nav > li > a {
+	color:darkgray;
+}
+
+.nav-header {
+	color:#4C110D !important;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn-info{
+	border: none !important;
+	color:darkgray !important;
+	background-color: #4C110D !important;
+}
+.btn-danger{
+	border: none !important;
+	color:darkgray !important;
+	background-color: #4C110D!important;
+}
+.btn-success{
+	border: none !important;
+	color:#4C110D !important;
+	background-color: darkgray !important;
+}
+
 .flashEmit{
 	color:salmon;
 	font-weight: bold;
 }
+
+input{
+	color:#4C110D !important;
+	background-color: darkgray;
+	border:none;
+}
+
+.col-md-8 {
+	left:7%;
+}
+.emphasis{
+	color:darkgray;
+}
+.sup {
+	margin-left: 45%;
+	text-align: left;
+}
+
 
 
 
